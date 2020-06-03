@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp4;
+using System;
 namespace CreateClass
 {
     internal class Program
@@ -15,9 +16,11 @@ namespace CreateClass
                 EmployeeData = new Employee()
                 {
                     Salary = 21231,
-                    WorkType = Employee.Profession.Lawyer
+                    WorkType = Employee.Profession.Lawyer,
+                    Room = new Room() { Number = 3 }
                 }
             };
+
             Console.WriteLine(person2);
 
         }

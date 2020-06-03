@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ConsoleApp4;
 
 namespace CreateClass
 {
     public class Employee : Person
     {
+        public Room Room { get; set; }
+
         public float Salary { get; set; }
 
         public Profession WorkType { get; set; }

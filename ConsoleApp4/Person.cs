@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CreateClass
 {
@@ -23,9 +19,10 @@ namespace CreateClass
         }
 
         public override string ToString()
-        {   if(EmployeeData is null)
+        {
+            if (EmployeeData is null)
                 return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}";
-            return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}, salary: {EmployeeData.Salary}, profession: {EmployeeData.WorkType}";
+            return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}, salary: {EmployeeData.Salary}, profession: {EmployeeData.WorkType}, room number: {EmployeeData.Room.Number}";
         }
     }
 }
