@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp4;
+using System;
 
 namespace CreateClass
 {
@@ -10,8 +11,6 @@ namespace CreateClass
 
         public DateTime BirthDate { get; set; }
 
-        public Employee EmployeeData { get; set; }
-
         public enum Gender
         {
             Male,
@@ -20,9 +19,7 @@ namespace CreateClass
 
         public override string ToString()
         {
-            if (EmployeeData is null)
-                return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}";
-            return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}, salary: {EmployeeData.Salary}, profession: {EmployeeData.WorkType}, room number: {EmployeeData.Room.Number}";
+            return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}";
         }
     }
 }

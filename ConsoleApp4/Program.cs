@@ -6,23 +6,11 @@ namespace CreateClass
     {
         private static void Main(string[] args)
         {
-            var person1 = new Person() { Name = "Andrew", BirthDate = new DateTime(1978, 10, 10), Genders = Person.Gender.Male };
-            Console.WriteLine(person1);
-            var person2 = new Person()
-            {
-                Name = "Julia",
-                BirthDate = DateTime.Now,
-                Genders = Person.Gender.Female,
-                EmployeeData = new Employee()
-                {
-                    Salary = 21231,
-                    WorkType = Employee.Profession.Lawyer,
-                    Room = new Room() { Number = 3 }
-                }
-            };
-
-            Console.WriteLine(person2);
-
+            Employee Claudiu = new Employee() {Name="Claudiu", Genders=Person.Gender.Male, 
+                BirthDate = new DateTime(1991, 12, 21), 
+                Salary = 10231, WorkType = Employee.Profession.Broker, 
+                Room = new Room(){Number = 21}};
+            Console.WriteLine(Claudiu);
         }
     }
 }
