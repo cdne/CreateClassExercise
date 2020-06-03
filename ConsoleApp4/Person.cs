@@ -11,7 +11,10 @@ namespace CreateClass
         public Gender Genders { get; set; }
 
         public string Name { get; set; }
+
         public DateTime BirthDate { get; set; }
+
+        public Employee EmployeeData { get; set; }
 
         public enum Gender
         {
@@ -20,8 +23,9 @@ namespace CreateClass
         }
 
         public override string ToString()
-        {
-            return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}";
+        {   if(EmployeeData is null)
+                return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}";
+            return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}, salary: {EmployeeData.Salary}, profession: {EmployeeData.WorkType}";
         }
     }
 }

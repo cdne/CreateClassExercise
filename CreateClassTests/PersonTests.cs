@@ -41,5 +41,22 @@ namespace CreateClass.Tests
 
             Assert.AreEqual(person.ToString(), resultPerson.ToString());
         }
+
+        [TestMethod()]
+        public void Add_PersonSalary_ReturnsFloatValue()
+        {
+            Person person = new Person() { EmployeeData = new Employee() { Salary = 2311.221f } };
+
+            Assert.AreEqual(2311.221f, person.EmployeeData.Salary);
+        }
+
+
+        [TestMethod()]
+        public void Add_PersonProfession_ReturnsProfession()
+        {
+            Person person = new Person() { EmployeeData = new Employee() { WorkType = Employee.Profession.Broker} };
+
+            Assert.AreEqual(Employee.Profession.Broker, person.EmployeeData.WorkType);
+        }
     }
 }
