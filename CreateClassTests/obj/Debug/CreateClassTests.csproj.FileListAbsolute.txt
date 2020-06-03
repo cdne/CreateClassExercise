@@ -1,0 +1,17 @@
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\CreateClassTests.dll
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\CreateClassTests.pdb
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\ConsoleApp4.exe
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\ConsoleApp4.pdb
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\ConsoleApp4.exe.config
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\obj\Debug\CreateClassTests.csprojAssemblyReference.cache
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\obj\Debug\CreateClassTests.csproj.CoreCompileInputs.cache
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\obj\Debug\CreateClassTests.csproj.CopyComplete
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\obj\Debug\CreateClassTests.dll
+C:\Users\Claudiu\source\repos\ConsoleApp4\CreateClassTests\obj\Debug\CreateClassTests.pdb
