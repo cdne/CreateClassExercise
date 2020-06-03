@@ -58,5 +58,22 @@ namespace CreateClass.Tests
 
             Assert.AreEqual(Employee.Profession.Broker, person.EmployeeData.WorkType);
         }
+
+        [TestMethod()]
+        public void Add_PersonObjectEmployeeValues_ReturnsCorrectValues()
+        {
+            Person person = new Person()
+            {
+                EmployeeData = new Employee()
+                {
+                    Salary = 212.231f,
+                    WorkType = Employee.Profession.Mechanic
+                }
+            };
+
+            Assert.AreEqual(212.231f, person.EmployeeData.Salary);
+            Assert.AreEqual(Employee.Profession.Mechanic, person.EmployeeData.WorkType);
+
+        }
     }
 }
