@@ -18,18 +18,27 @@ namespace CreateClass
             Broker
         }
 
-         public object Clone()
-         {
-             return this.MemberwiseClone();
-         }
+        public object Clone()
+        {
+            return MemberwiseClone();
+        }
+
+        public object Clone2()
+        {
+            Employee newEmployee = (Employee)this.MemberwiseClone();
+            newEmployee.Room. = new Room() { Number };
+            return newEmployee;
+        }
+
 
         public override string ToString()
         {
-             return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}, salary: {Salary}, profession: {WorkType}, roomNumber: {Room.Number}";
+            return $"name: {Name}, birthdate: {BirthDate}, gender: {Genders}, salary: {Salary}, profession: {WorkType}, roomNumber: {Room.Number}";
         }
     }
 
-    interface ICloneable {
+    interface ICloneable
+    {
         object Clone();
     }
 }

@@ -1,5 +1,4 @@
-﻿using ConsoleApp4;
-using System;
+﻿using System;
 
 namespace CreateClass
 {
