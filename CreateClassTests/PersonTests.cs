@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using ConsoleApp4;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
 namespace CreateClass.Tests
@@ -54,7 +55,7 @@ namespace CreateClass.Tests
         [TestMethod()]
         public void Add_PersonProfession_ReturnsProfession()
         {
-            Person person = new Person() { EmployeeData = new Employee() { WorkType = Employee.Profession.Broker} };
+            Person person = new Person() { EmployeeData = new Employee() { WorkType = Employee.Profession.Broker } };
 
             Assert.AreEqual(Employee.Profession.Broker, person.EmployeeData.WorkType);
         }
@@ -73,7 +74,17 @@ namespace CreateClass.Tests
 
             Assert.AreEqual(212.231f, person.EmployeeData.Salary);
             Assert.AreEqual(Employee.Profession.Mechanic, person.EmployeeData.WorkType);
+        }
 
+        [TestMethod()]
+        public void Add_EmployeeRoomNumber_ReturnsInteger()
+        {
+            Person person = new Person()
+            {
+                EmployeeData = new Employee() { Room = new Room() { Number = 21 } }
+            };
+
+            Assert.AreEqual(21, person.EmployeeData.Room.Number);
         }
     }
 }
